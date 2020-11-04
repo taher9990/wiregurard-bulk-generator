@@ -1,0 +1,4 @@
+keyGenBashCmd,"umask 077; wg genkey | tee privatekey | wg pubkey > publickey"
+pathToHosts,"/home/ubuntu/wirguardConfigGen/csvdata.csv"
+generatedConfsPath,"generatedConfs"
+keysRepoName,"keysArchive"
