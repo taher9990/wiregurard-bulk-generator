@@ -6,7 +6,7 @@
 
 ## Configure the path for saving files:
 
-Open app.conf.csv file and edit below line 
+Open app.conf.csv file and edit below line <br>
 `pathToHosts,"/home/ubuntu/wirguardConfigGen/csvdata.csv"`
 
 ## Start the installation of the pre-requisties
