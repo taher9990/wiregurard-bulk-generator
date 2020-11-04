@@ -10,11 +10,10 @@ Open app.conf.csv file and edit below line <br>
 `pathToHosts,"/home/ubuntu/wirguardConfigGen/csvdata.csv"`
 
 ## Start the installation of the pre-requisties
-`
-apt install python3 -y <br>
-apt install python3-distutils -y
-python3 get-pip.py
-`
+`apt install python3 -y` <br>
+`apt install python3-distutils -y` <br>
+`python3 get-pip.py`<br>
+
 ## Now run the generator 
 `Wireguard_ConfigGenerator.py`
 
