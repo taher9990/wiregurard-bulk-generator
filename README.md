@@ -39,7 +39,7 @@ PRD-INTERNAL-VLAN50-SRV4,PRD-INTERNAL-VLAN50-SRV4-P.EXAMPLE.COM,PRD-INTERNAL-VLA
 
 <br>
 
-`Wireguard_ConfigGenerator.py`
+`$Wireguard_ConfigGenerator.py`
 
 ├── Wireguard_ConfigGenerator.py
 <br>
