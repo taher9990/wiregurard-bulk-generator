@@ -26,33 +26,61 @@ python3 get-pip.py
 
 ## Example
 `$cat csvdata.csv`
+<br>
 Hostname,Public_FQDN,Public_Custom_Hostname,WireGuard_Subnet
+<br>
 PRD-INTERNAL-VLAN50-SRV1,PRD-INTERNAL-VLAN50-SRV1-P.EXAMPLE.COM,PRD-INTERNAL-VLAN50-SRV1-P,10.10.10.10/32
+<br>
 PRD-INTERNAL-VLAN50-SRV2,PRD-INTERNAL-VLAN50-SRV2-P.EXAMPLE.COM,PRD-INTERNAL-VLAN50-SRV2-P,10.10.10.11/32
+<br>
 PRD-INTERNAL-VLAN50-SRV3,PRD-INTERNAL-VLAN50-SRV3-P.EXAMPLE.COM,PRD-INTERNAL-VLAN50-SRV3-P,10.10.10.12/32
+<br>
 PRD-INTERNAL-VLAN50-SRV4,PRD-INTERNAL-VLAN50-SRV4-P.EXAMPLE.COM,PRD-INTERNAL-VLAN50-SRV4-P,10.10.10.13/32
+<br>
 
 `Wireguard_ConfigGenerator.py`
 
 ├── Wireguard_ConfigGenerator.py
+<br>
 ├── __init__.py
+<br>
 ├── app.conf.csv
+<br>
 ├── csvdata.csv
+<br>
 ├── generatedConfs
+<br>
 │   ├── PRD-INTERNAL-VLAN50-SRV1-P
+<br>
 │   ├── PRD-INTERNAL-VLAN50-SRV2-P
+<br>
 │   ├── PRD-INTERNAL-VLAN50-SRV3-P
+<br>
 │   └── PRD-INTERNAL-VLAN50-SRV4-P
+<br>
 └── keysArchive
+<br>
     ├── PRD-INTERNAL-VLAN50-SRV1-P
+    <br>
     │   ├── privatekey
+    <br>
     │   └── publickey
+    <br>
     ├── PRD-INTERNAL-VLAN50-SRV2-P
+    <br>
     │   ├── privatekey
+    <br>
     │   └── publickey
+    <br>
     ├── PRD-INTERNAL-VLAN50-SRV3-P
+    <br>
     │   ├── privatekey
+    <br>
     │   └── publickey
+    <br>
     └── PRD-INTERNAL-VLAN50-SRV4-P
+    <br>
         ├── privatekey
+        <br>
         └── publickey
+        <br>
