@@ -25,15 +25,14 @@ python3 get-pip.py
 
 
 ## Example
-`
-$cat csvdata.csv
+`$cat csvdata.csv`
 Hostname,Public_FQDN,Public_Custom_Hostname,WireGuard_Subnet
 PRD-INTERNAL-VLAN50-SRV1,PRD-INTERNAL-VLAN50-SRV1-P.EXAMPLE.COM,PRD-INTERNAL-VLAN50-SRV1-P,10.10.10.10/32
 PRD-INTERNAL-VLAN50-SRV2,PRD-INTERNAL-VLAN50-SRV2-P.EXAMPLE.COM,PRD-INTERNAL-VLAN50-SRV2-P,10.10.10.11/32
 PRD-INTERNAL-VLAN50-SRV3,PRD-INTERNAL-VLAN50-SRV3-P.EXAMPLE.COM,PRD-INTERNAL-VLAN50-SRV3-P,10.10.10.12/32
 PRD-INTERNAL-VLAN50-SRV4,PRD-INTERNAL-VLAN50-SRV4-P.EXAMPLE.COM,PRD-INTERNAL-VLAN50-SRV4-P,10.10.10.13/32
 
-Wireguard_ConfigGenerator.py
+`Wireguard_ConfigGenerator.py`
 
 ├── Wireguard_ConfigGenerator.py
 ├── __init__.py
@@ -57,4 +56,3 @@ Wireguard_ConfigGenerator.py
     └── PRD-INTERNAL-VLAN50-SRV4-P
         ├── privatekey
         └── publickey
-`
