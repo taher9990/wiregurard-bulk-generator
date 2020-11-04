@@ -15,7 +15,7 @@ Open app.conf.csv file and edit below line <br>
 `python3 get-pip.py`<br>
 
 ## Now run the generator 
-`Wireguard_ConfigGenerator.py`
+`python3 Wireguard_ConfigGenerator.py`
 
 #### Generated Config location:
 ####### Wireguard Config files:
