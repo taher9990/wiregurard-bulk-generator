@@ -20,9 +20,9 @@ Open app.conf.csv file and edit below line <br>
 `python3 Wireguard_ConfigGenerator.py`
 
 #### Generated Config location:
-####### Wireguard Config files:
+####### Wireguard Config files:<br>
 `~/generatedConfs/`
-####### Wireguard Config keys files:
+####### Wireguard Config keys files: <br>
 `~/keysArchive/`
 
 
