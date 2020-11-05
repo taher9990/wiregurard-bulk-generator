@@ -1,7 +1,7 @@
 # wiregurard-bulk-generator
 
 ## Download the files
-` wget https://bootstrap.pypa.io/get-pip.py` <br>
+`wget https://bootstrap.pypa.io/get-pip.py` <br>
 `git clone git://github.com/taher9990/wiregurard-bulk-generator.git`
 
 ## Configure the path for saving files:
@@ -12,8 +12,8 @@ Open app.conf.csv file and edit below line <br>
 `pathToHosts,"/home/ubuntu/wirguardConfigGen/csvdata.csv"`
 
 ## Start the installation of the pre-requisties
-`apt install python3 -y` <br>
-`apt install python3-distutils -y` <br>
+`apt install python3 -y`<br>
+`apt install python3-distutils -y`<br>
 `python3 get-pip.py`<br>
 
 ## Now run the generator 
@@ -38,7 +38,6 @@ PRD-INTERNAL-VLAN50-SRV2,PRD-INTERNAL-VLAN50-SRV2-P.EXAMPLE.COM,PRD-INTERNAL-VLA
 PRD-INTERNAL-VLAN50-SRV3,PRD-INTERNAL-VLAN50-SRV3-P.EXAMPLE.COM,PRD-INTERNAL-VLAN50-SRV3-P,10.10.10.12/32
 <br>
 PRD-INTERNAL-VLAN50-SRV4,PRD-INTERNAL-VLAN50-SRV4-P.EXAMPLE.COM,PRD-INTERNAL-VLAN50-SRV4-P,10.10.10.13/32
-
 <br>
 
 `$python3 Wireguard_ConfigGenerator.py`
