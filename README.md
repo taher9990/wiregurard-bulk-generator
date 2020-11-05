@@ -1,7 +1,7 @@
 # wiregurard-bulk-generator
 
 ## Download the files
-` wget https://bootstrap.pypa.io/get-pip.py`
+` wget https://bootstrap.pypa.io/get-pip.py` <br>
 `git clone git://github.com/taher9990/wiregurard-bulk-generator.git`
 
 ## Configure the path for saving files:
