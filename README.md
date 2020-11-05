@@ -21,9 +21,9 @@ Open app.conf.csv file and edit below line <br>
 
 #### Generated Config location:
 ####### Wireguard Config files:<br>
-`~/generatedConfs/`
+`~/generatedConfs/`<br>
 ####### Wireguard Config keys files: <br>
-`~/keysArchive/`
+`~/keysArchive/`<br>
 
 
 ## Example
