@@ -7,6 +7,8 @@
 ## Configure the path for saving files:
 
 Open app.conf.csv file and edit below line <br>
+`cd wiregurard-bulk-generator`<br>
+`vi app.conf.cs` <br>
 `pathToHosts,"/home/ubuntu/wirguardConfigGen/csvdata.csv"`
 
 ## Start the installation of the pre-requisties
