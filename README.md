@@ -15,6 +15,8 @@ Open app.conf.csv file and edit below line <br>
 `apt install python3 -y`<br>
 `apt install python3-distutils -y`<br>
 `python3 get-pip.py`<br>
+Or download get-pip.py from here <br>
+`wget https://bootstrap.pypa.io/get-pip.py`
 
 ## Now run the generator 
 `python3 Wireguard_ConfigGenerator.py`
